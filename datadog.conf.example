@@ -186,6 +186,8 @@ use_mount: no
 # If this value isn't specified, the default parser assumes this log format:
 #     metric timestamp value key0=val0 key1=val1 ...
 #
+# The check frequency can be adjusted, and defaults to 15 minutes
+#   check_freq: 15
 
 # ========================================================================== #
 # Custom Emitters                                                            #
